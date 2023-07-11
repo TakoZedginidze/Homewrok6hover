@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           .card{
+            background-color: white;
+            border: 2px solid grey;
+            width: 300px;
+            height: 300px;
+           }
+            .container{display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 50px;
+            text-align: center; 
+            
+        }
+        .card-image{
+            background-color: grey;
+            height: 230px;
+            margin-bottom: 0px;
+            background-size: cover;
+        }
+        .fjords{
+            background-image: url(Fjords.jpg);
+        }
+        .forest{
+            background-image: url(Forest.jpg);
+        }
+        .Northenlights{
+background-image: url(Northen\ lights.jpg);
+        }
+.Mountains{
+    background-image: url(Mountains.jpg);
+}
+.card:hover{
+    border: 3px solid black;
+}
+        </style>
+    </head>
+    <body>
+    <section class="container">
+        <div class="card">
+        <div class="card-image fjords"></div>
+        <h2>Fjords</h2>
+    </div>
+    <div class="card">
+        <div class="card-image forest"></div>
+        <h2>Forest</h2>
+    </div>
+    <div class="card">
+        <div class="card-image Northenlights"></div>
+        <h2>Northen lights</h2>
+    </div>
+    <div class="card">
+        <div class="card-image Mountains"></div>
+        <h2>Mountains</h2>
+    </div>
+    </section>    
+    </body>
+</html>
